@@ -4,9 +4,52 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>RocketNews</title>
   </head>
   <body>
-    <h1>Get Starting With RocketNews</h1>
+    <main class="wrapper">
+      <section class="wrapper-content">
+        <img
+          class="logo-image"
+          src="./assets/logo.svg"
+          alt="Logo Image RocketNews"
+        />
+
+        <div class="text-content">
+          <h2>atualize ideias e informações em 5 minutos.</h2>
+          <strong>
+            tudo que você precisa saber para começar seu dia bem e informado
+          </strong>
+          <p>
+            noticias sobre o universo Rocketseat, e tudo o que precisa para
+            começar o dia melhor. perfeito para se preparar para codar ☕
+          </p>
+        </div>
+
+        <form class="form-wrapper">
+          <label for="input-mail">Insira seu e-mail:</label>
+
+          <div>
+            <input
+              type="email"
+              name="email"
+              placeholder="oi@rocketseat.com"
+              autocomplete="email"
+              id="input-mail"
+            />
+            <button type="submit">
+              <img src="./assets/send.svg" alt="Submit SVG Icon" />
+            </button>
+          </div>
+        </form>
+
+        <a href="#">
+          deixe-me ler primeiro
+          <img src="./assets/arrow-right.svg" alt="Arrow Right SVG Icon" />
+        </a>
+      </section>
+      <section class="lateral-bg"></section>
+    </main>
   </body>
 </html>
